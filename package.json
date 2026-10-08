@@ -1,0 +1,11 @@
+{
+  "name": "advanced-pipeline-q3",
+  "version": "1.0.0",
+  "description": "Question 3 - Advanced CI/CD Pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {}
+}
