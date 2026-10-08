@@ -5,6 +5,7 @@ pipeline {
         booleanParam(name: 'AUTO_ROLLBACK', defaultValue: true, description: 'Rollback on failure')
     }
     environment {
+        PATH = "C:\\Program Files\\nodejs;${env.PATH}"
         DOCKER_IMAGE = "afif729/advanced-app:${params.IMAGE_TAG}"
     }
     stages {
